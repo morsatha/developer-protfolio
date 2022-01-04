@@ -38,3 +38,30 @@ h1{
     background-repeat:no-repeat;
     background-position:right;
 }
+#third-section{
+    text-align:center;
+    padding:100px 0 100px;
+}
+.experians{
+    display:flex;
+}
+.experi-item{
+    width:40%;
+    box-shadow: 10px 10px 40px gray;
+    margin:0 10%;
+    padding:10px 12px;
+    border-radius:10px;
+}
+.color-1{
+    border-left:6px solid;
+    border-image:linear-gradient(blue, orange);
+    border-image-slice:1;
+}
+.color-2{
+    border-left:6px solid;
+    border-image:linear-gradient(red, orange, green);
+    border-image-slice:1;
+}
+footer{
+    text-align:center;
+}
