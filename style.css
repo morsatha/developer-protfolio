@@ -13,15 +13,17 @@ h1{
     padding:0 59px;
     background-image:url('top-banner.png');
     background-repeat:no-repeat;
+    margin-bottom:150px;
 }
 .half-width{
     width:50%;
     
 }
+
 .half-width img{
     width:80%;
     padding:30px 5px 0 0;
-    margin-left:60px;
+    margin-left:60px; 
 }
 
 .btn-1 {
@@ -29,4 +31,10 @@ h1{
     background-image:linear-gradient(orange, tomato);
     padding:5px 20px;
     border-radius:5px;
+}
+#two-section{
+    display:flex;
+    background-image:url('dream-bg.png');
+    background-repeat:no-repeat;
+    background-position:right;
 }
